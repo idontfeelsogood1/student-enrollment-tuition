@@ -1,0 +1,6 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #f5f7fb; color: #1f2937; }
+.navbar { display: flex; gap: 16px; align-items: center; padding: 12px 24px; background: #1d4ed8; color: #fff; }
+.navbar a { color: #dbeafe; text-decoration: none; }
+.navbar a.active { color: #fff; font-weight: 600; }
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+.api-status { margin-top: 32px; font-size: 13px; color: #6b7280; }
