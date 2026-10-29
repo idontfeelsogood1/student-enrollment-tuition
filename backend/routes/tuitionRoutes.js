@@ -1,7 +1,9 @@
 const express = require("express");
+const tuitionController = require("../controllers/tuitionController");
 
 const router = express.Router();
 
-// Các API của module sẽ được bổ sung trên nhánh feature tương ứng.
+router.get("/students/:studentId/invoices", tuitionController.listStudentInvoices);
+router.get("/invoices/:invoiceId/payments", tuitionController.listInvoicePayments);
 
 module.exports = router;
