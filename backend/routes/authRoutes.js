@@ -1,7 +1,9 @@
 const express = require("express");
+const authController = require("../controllers/authController");
 
 const router = express.Router();
 
-// Các API của module sẽ được bổ sung trên nhánh feature tương ứng.
+router.post("/register", authController.register);
+router.post("/login", authController.login);
 
 module.exports = router;
