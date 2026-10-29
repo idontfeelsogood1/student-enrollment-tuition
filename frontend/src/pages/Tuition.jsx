@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getInvoices } from "../services/tuitionApi";
+import "./Tuition.css";
 
 // Tạm thời cố định, sẽ lấy từ phiên đăng nhập khi tích hợp module xác thực.
 const DEMO_STUDENT_ID = 1;

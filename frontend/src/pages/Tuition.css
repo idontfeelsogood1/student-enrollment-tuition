@@ -1,0 +1,2 @@
+.invoice-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px; }
+.invoice-list li { display: flex; flex-wrap: wrap; gap: 16px; padding: 12px; border: 1px solid #e5e7eb; border-radius: 6px; }
